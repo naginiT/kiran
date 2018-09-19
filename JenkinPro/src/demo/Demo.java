@@ -16,9 +16,6 @@ public class Demo
 		  WebDriver driver = new ChromeDriver();
 		  driver.get("https://www.seleniumhq.org/download/");
 		  driver.manage().window().maximize();
-		  TakesScreenshot ts = (TakesScreenshot) driver;
-		  File f =new File ("ts");
-		  
 	}
 
 }
