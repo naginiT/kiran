@@ -16,6 +16,7 @@ public class Demo
 		  WebDriver driver = new ChromeDriver();
 		  driver.get("https://www.seleniumhq.org/download/");
 		  driver.manage().window().maximize();
+		  System.out.println("getout");
 	}
 
 }
